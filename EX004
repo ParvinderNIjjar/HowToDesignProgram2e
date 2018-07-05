@@ -1,0 +1,7 @@
+(define str "helloworld")
+(define i 5)
+(define a (+ 1 i))
+(define strlen (string-length "helloworld"))
+
+(string-ith str i )
+(string-append ( substring str 0 i) ( substring str a strlen))
